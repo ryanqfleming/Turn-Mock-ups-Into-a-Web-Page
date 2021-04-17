@@ -173,7 +173,9 @@ body {
     font-size: 40px;
     text-align: right;
 }
-
+.t2 > h2 {
+    margin-bottom: 0px;
+}
 .gapper {
     width: 20px;
 }
@@ -267,13 +269,31 @@ body {
     height: 125px;
 }
 .popularsContainer {
-    height: 60%;
+    height: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 }
-
-
+.middleWrapper {
+    display: flex;
+    flex-direction: column;
+    height: 1200px;
+    flex-wrap: wrap;
+    margin-left: 40px;
+}
+.actText {
+    width: 200px;
+}
+.activitiesBox {
+    width: 400px;
+}
+.activitiesBox > img {
+    width:400px;
+    height:400px;
+}
+.t3 {
+    margin-left: 40px;
+}
 
 @media only screen and (max-width:800px) {
     body {
