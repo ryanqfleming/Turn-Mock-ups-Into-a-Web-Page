@@ -244,12 +244,15 @@ body {
     border-radius: 15px;
     margin-left:5%;
     margin-right:5%;
-    height: 140px;
+    height: 130px;
+    justify-content: center;
     
 }
 .popularsImg Img {
-    width:30px;
-    height:30px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height:130px;
+    width: 120px;
 }
 .p1 {
     flex-grow: 8;
@@ -261,7 +264,7 @@ body {
     flex-grow: 1;
 }
 .d1 {
-    height: 140px;
+    height: 125px;
 }
 
 
