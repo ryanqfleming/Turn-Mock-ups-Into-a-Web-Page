@@ -267,7 +267,7 @@ body {
     height: 125px;
 }
 .popularsContainer {
-    height: 100%;
+    height: 60%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
