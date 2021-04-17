@@ -274,25 +274,43 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
+.middleContent {
+    background-color:orange;
+    margin-bottom: 60px;
+}
 .middleWrapper {
     display: flex;
     flex-direction: column;
-    height: 1200px;
+    height: 800px;
+    background-color:purple;
     flex-wrap: wrap;
+    justify-content:space-between;
     margin-left: 40px;
 }
+.
 .actText {
     width: 200px;
 }
 .activitiesBox {
-    width: 400px;
+    width: 22vw;
+    border-radius: 15px; 
 }
 .activitiesBox > img {
-    width:400px;
-    height:400px;
+    width: 22vw;
+    height: 80%;
+    object-fit: cover;
 }
 .t3 {
     margin-left: 40px;
+}
+.activitiesLarge {
+    background-color: green;
+    height: 99%;
+}
+
+.activitiesSmall {
+    background-color: red;
+    height: 45%;
 }
 
 @media only screen and (max-width:800px) {
