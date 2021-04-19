@@ -274,10 +274,12 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
+/*
 .middleContent {
     background-color:orange;
     margin-bottom: 60px;
 }
+/*
 .middleWrapper {
     display: flex;
     flex-direction: column;
@@ -287,6 +289,7 @@ body {
     justify-content:space-between;
     margin-left: 40px;
 }
+/*
 .actText {
     width: 200px;
 }
@@ -544,4 +547,4 @@ body {
       height: 340px;
     }
 }
-
+*/
