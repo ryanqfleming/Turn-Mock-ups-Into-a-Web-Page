@@ -287,7 +287,6 @@ body {
     justify-content:space-between;
     margin-left: 40px;
 }
-.
 .actText {
     width: 200px;
 }
@@ -314,9 +313,6 @@ body {
 }
 
 @media only screen and (max-width:800px) {
-    body {
-        margin-left: 0px;
-    }
     .topTwo {
         margin-bottom: 10px;
     }
@@ -375,9 +371,6 @@ body {
   .info {
       margin-left:15px;
   }  
-  body {
-        margin-left: 0px;
-    }
     .topContent {
         flex-wrap: wrap;
     }
@@ -528,11 +521,10 @@ body {
     padding: 0px 30px 0px 30px;
 }
 
+}
 
-  @media only screen and (max-width: 505px){
-        body {
-            min-width: 320px;
-        }
+
+  @media only screen and (max-width: 505px){ 
         .navHeader div:nth-child(2) {
             width:30%;
         }
@@ -544,7 +536,7 @@ body {
        
     }
     
-}
+
 @media only screen and (min-width: 2200px)
 {
     .accommodations {
