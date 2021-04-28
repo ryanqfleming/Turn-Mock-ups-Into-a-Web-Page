@@ -579,7 +579,7 @@ body {
     .navHeader div:nth-child(5)
     {
         font-size: 1em;
-        text-align: right;
+        text-align: center;
     }
     .headerText h1{
         font-size:2em;
@@ -644,6 +644,7 @@ body {
 }
 .info p:nth-child(1) span, .info p:nth-child(1) {
     font-size: 20px;
+    margin-right: 3px;
 }
 
 .info p:nth-child(1) span {
